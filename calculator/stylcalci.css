@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(198, 230, 239);
+    font-family: Arial, sans-serif;
+    background-image: url('—Pngtree—vector\ school\ bag\ calculator\ cyan_1070766.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-bottom: 5px;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 36px; 
+}
+
+#container {
+    width: 20em; /* Adjusted width */
+    height: 30em; /* Adjusted height */
+    margin: auto;
+    padding-top: 10px;
+    padding: 10px;
+    background-color: rgb(79, 132, 230);
+    border-radius: 20px;
+    margin-top: 8vh; /* Adjusted margin-top */
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#container:hover {
+    box-shadow: 0 0 15px 5px rgb(79, 132, 230); /* Box shadow on hover */
+}
+
+#container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#txt {
+    width: calc(100% - 30px);
+    padding: 15px;
+    margin: 20px 0; 
+    border-radius: 10px;
+    border: transparent;
+    font-size: 2em;
+    font-weight: bold;
+    
+   color: white;
+    box-shadow: 0 0 5px 0 whitesmoke;
+}
+
+.btn {
+    width: 4em;
+    padding: 10px;
+    margin: 5px;
+    border: transparent;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(235, 243, 242);
+    transition: box-shadow 0.3s ease; 
+}
+
+.btn.blue {
+    background-color:rgb(243, 225, 91) ;
+    color: white;
+}
+
+.btn:hover,
+.btn.blue:hover,#txt{
+    background-color:  rgb(243, 225, 91);
+    color: white;
+    box-shadow: 0 0 5px 0px white; 
+}
+
+
+.btn_plus {
+    width: calc(100% - 30px);
+}
